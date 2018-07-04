@@ -1,3 +1,5 @@
+map<int, int> m;
+
 void helper(Node* root, int start){
     if(!root)return;
     m[start] = root->data;
