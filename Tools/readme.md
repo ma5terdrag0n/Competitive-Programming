@@ -5,3 +5,6 @@
 <ul>
   <li> <b>Origami:</b> For making efficient side panes and windows on one screen. </li>
 </ul>
+<h4> <b>Compiler for C++:</b> GNU G++ </h4>
+<h4> <b>Compilation command:</b> g++ -o objectFileName Program.cpp <h4>
+<h4> <b>Run command:</b> ./objectFileName </h4>
