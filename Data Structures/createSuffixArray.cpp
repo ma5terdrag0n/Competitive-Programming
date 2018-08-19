@@ -49,46 +49,6 @@ string toUpperCase(string s){rep(s.size()){s[i] = toUpper(s[i]);}return s;}
 template<typename T> void cumulative(T *a, T *b, T n){rep(n){i ? b[i] = b[i-1] + a[i] : b[i] = a[i];}}
 bool ispal(string s){ll lo, hi;lo = 0;hi = s.length()-1;while(lo <= hi){if(s[lo] != s[hi]){return 0;}lo++;--hi;}return 1;}
 template<class T >string toString(T n){string v = "";while(n){v.pb(n % 10 + '0');n /= 10;}reverse(all(v));return v;}
-
-// bool p[1000001];
-// vi primes;
-
-// void sieve(){
-//     p[0] = p[1] = 0;
-//     for(int i=2 ;i <= 1000000 ; i++){
-//         p[i] = 1;
-//     }
-//     for(int i = 2 ; i*i < 1000001 ; i++){
-//         if(p[i] == 1){
-//             for(int j = i * i ; j < 1000001 ; j += i){
-//                 p[j] = 0;
-//             }
-//         }
-//     }
-//     for(int i = 0 ; i < 1000001 ; i ++){
-//         if(p[i]){
-//             primes.pb(i);
-//         }
-//     }
-// }
-
-ll binary_search(vi a, ll n, ll key){
-    ll lo = 0;
-    ll hi = n - 1;
-    while(lo <= hi){
-        ll mid = (lo + hi) / 2;
-        if(a[mid] == key){
-            return mid;
-        }
-        else if(a[mid] < key){
-            lo = mid + 1;
-        }else{
-            hi = mid - 1;
-        }
-    }
-    return -1;
-}
-
 //------------------------------------------------------------------------
 
 
