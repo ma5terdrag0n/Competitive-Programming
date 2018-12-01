@@ -8,6 +8,13 @@
   7. Polygon reading
   8. point "pt" inside polygon "P"
 */
+
+
+// Some constants: uncomment if not already defined
+// const int INF = 1e9 + 7;
+// const int EPS = 1e-9;
+// const double PI = 1.00 * acos(-1.00);
+
 class Point{
 public:
 	double x, y;
