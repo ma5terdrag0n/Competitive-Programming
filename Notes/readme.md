@@ -1,4 +1,4 @@
-<h1> Awesome Links: </h1>
+<h1> Awesome Links and notes: </h1>
 <ul>
   <li>
     <a href = "https://leetcode.com/problems/majority-element/solution/#"> Boyer-Moore Voting Algorithm </a>
@@ -17,5 +17,11 @@
   </li>
   <li> 
     <a href="https://leetcode.com/problems/evaluate-division/description/"> Awesome Graph problem </a>
+  </li>
+  <li>
+    For Euler cycle:<br>
+    <ol><li> Graph must be connected</li><li>All vertices have even degrees</li></ol>
+    For Euler Path:<br>
+    <ol><li> Graph must be connected</li><li>Exactly 2 verices have odd degrees</li></ol>
   </li>
 </ul>
