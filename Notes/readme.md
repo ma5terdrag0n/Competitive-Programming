@@ -19,13 +19,13 @@
     <a href="https://leetcode.com/problems/evaluate-division/description/"> Awesome Graph problem </a>
   </li>
   <li>
-    <h3> Euler Circuit</h3> Cover all the edges exactly once without lifting up your pen.
+    <h3> Euler Circuit</h3> Cover all the edges exactly once without lifting up your pen.<br>
     <b>For Euler cycle </b><br>
     <ol><li> Graph must be connected</li><li>All vertices have even degrees</li></ol>
     <b>For Euler Path</b><br>
     <ol><li> Graph must be connected</li><li>Exactly 2 verices have odd degrees</li></ol>
     Complexity of finding if euler cycle or euler path exists or not is O(V + E) which is the complexity of DFS.
   </li>
-  <li> <h3> Hamiltonian Circuit </h3> This is <b>NP hard</b> problem and travelling salesman problem is based on this but using held karp algorithm we can solve it in exponential time using dynamic programming
+  <li> <h3> Hamiltonian Circuit </h3> This is <b>NP hard</b> problem and travelling salesman problem is based on this but using held karp algorithm we can solve it in exponential time using dynamic programming.
   </li>
 </ul>
